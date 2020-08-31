@@ -86,6 +86,10 @@ $servidor =ControladorRuta::ctrServidor();
 	<!-- https://fullcalendar.io/docs/background-events-demo -->	
 	<script src="js/plugins/fullcalendar.min.js"></script>
 
+	<!-- JQUERY NUMBER -->
+	<!-- https://plugins.jquery.com/df-number-format/ -->
+	<script type="js/plugins/jquery.number.js"></script>
+
 
 </head>
 <body>

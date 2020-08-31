@@ -360,7 +360,7 @@ VENTANA MODAL PLANES
 
        					<p class="px-2">
 
-	       				Temporada Baja: Plan Americano + $ <?php echo number_format($value["precio_baja"]); ?> PEN<br>
+	       				Temporada Baja: Plan Americano + $ <?php echo number_format($value["precio_bajo"]); ?> PEN<br>
 
 	       				Temporada Alta: Plan Americano + $ <?php echo number_format($value["precio_alta"]); ?> PEN
 
