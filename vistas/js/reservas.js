@@ -276,7 +276,7 @@ function colDerReservas(){
 
    $(".colDerReservas").show(); 
 
-   var codigoReserva = codigoAleatorio(chars, 9);
+   // var codigoReserva = codigoAleatorio(chars, 9);
    var codigoReserva ="9Y5Z8N55A";
    var datos = new FormData();
    datos.append("codigoReserva", codigoReserva);

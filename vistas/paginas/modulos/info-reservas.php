@@ -51,10 +51,10 @@ if(isset($_POST["id-habitacion"])){
 
 		$precioContinental = $reservas[$indice]["continental_baja"];
 		$precioAmericano = $reservas[$indice]["americano_baja"];
-		$precioRomantico = $reservas[$indice]["americano_baja"] + $planes[0]["precio_baja"];
-		$precioLunaDeMiel = $reservas[$indice]["americano_baja"] + $planes[1]["precio_baja"];
-		$precioAventura = $reservas[$indice]["americano_baja"] + $planes[2]["precio_baja"];
-		$precioSPA = $reservas[$indice]["americano_baja"] + $planes[3]["precio_baja"];
+		$precioRomantico = $reservas[$indice]["americano_baja"] + $planes[0]["precio_bajo"];
+		$precioLunaDeMiel = $reservas[$indice]["americano_baja"] + $planes[1]["precio_bajo"];
+		$precioAventura = $reservas[$indice]["americano_baja"] + $planes[2]["precio_bajo"];
+		$precioSPA = $reservas[$indice]["americano_baja"] + $planes[3]["precio_bajo"];
 
 	}
 

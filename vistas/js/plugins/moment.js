@@ -355,7 +355,7 @@
 	});
 	var We = /D[oD]?(\[[^\[\]]*\]|\s)+MMMM?/,
 		He = "Enero_Febrero_Marzo_Abril_Mayo_Junio_Julio_Agosto_Septiembre_Octubre_Noviembre_Diciembre".split("_");
-	var Re = "Ene_Feb_Mar_Abr_May_Jun_Jul_Ago_Sep_Oct_Nov_Dec".split("_");
+	var Re = "Ene_Feb_Mar_Abr_May_Jun_Jul_Ago_Sep_Oct_Nov_Dic".split("_");
 
 	function Ce(e, t) {
 		var n;
@@ -438,7 +438,7 @@
 	}), fe(["d", "e", "E"], function(e, t, n, s) {
 		t[s] = k(e)
 	});
-	var je = "Domingo_Lunes_Martes_Miercoles_Jueves_Viernes_Sábado".split("_");
+	var je = "Domingo_Lunes_Martes_Miercoles_Jueves_Viernes_Sabado".split("_");
 	var Ze = "Dom_Lun_Mar_Mie_Jue_Vie_Sab".split("_");
 	var ze = "Do_Lu_Ma_Mi_Ju_Vi_Sa".split("_");
 	var $e = ae;
